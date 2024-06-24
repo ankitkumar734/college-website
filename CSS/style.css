@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Topbar Start */
+.fixed-top .container {
+  transition: 0.5s;
+}
+
+.topbar {
+  padding: 2px 10px 2px 20px;
+  background: var(--bs-primary) !important;
+}
+
+.topbar a,
+.topbar a i {
+  transition: 0.5s;
+}
+
+.topbar a:hover,
+.topbar a i:hover {
+  color: var(--bs-secondary) !important;
+}
+
+.text-light {
+  text-decoration: none;
+}
+
+
+
+.navbar-brand,.navbar-nav .nav-link{
+   font-size: 15px;
+   font-weight: 700;
+   font-family: 'poppins', 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+
+
+
+.dropdown-menu li  a:hover {
+  font-family: 'poppins', 'Segoe UI', Tahoma, Verdana, sans-serif;
+  
+}
+
+/* Drop down Menu background color change */
+
+/* .dropdown-menu li  a{
+  font-family: 'poppins', 'Segoe UI', Tahoma, Verdana, sans-serif;
+} */
+
+
+
+
+
+/* Ensure the top bar is always visible on small screens */
+@media (max-width: 576px) {
+  .container-fluid {
+    padding: 0 15px;
+  }
+
+  .topbar a {
+    font-size: 12px;
+  }
+
+  .btn-square {
+    padding: 5px; /* Adjust padding for buttons on smaller screens */
+  }
+
+  .navbar-brand img {
+    width: 50px; /* Adjust logo size for smaller screens */
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 14px; /* Adjust font size for nav links on smaller screens */
+  }
+}
+
+
+/* about */
+
+.logo{
+  border-radius: 5px;
+}
+
+#abouth1{
+  font-family: 'poppins', 'Segoe UI', Tahoma, Verdana, sans-serif;
+  
+  
+}
+#aboutP{
+  font-size: 20px;
+  
+
+}
+
+
+/* Add margin to cards on mobile devices */
+@media (max-width: 576px) {
+  .card-mobile-margin {
+    margin: 5px;
+  }
+}
+
+
+/* Custom CSS for margin between rows */
+.team .row {
+  margin-bottom: 10px;
+}
+
+
+
+
+.text-white{
+  text-decoration:  none;
+}
+
+
+
+
+/* extra infromation part  start*/
+
+.h5-bg-container {
+  background-color: #2c2a2a; 
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 100%; 
+}
+
+.card-img-top {
+  height: 200px; 
+  object-fit: cover; 
+}
+
+.btn-custom {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+/* extra infromation part   end */
+
+
+
+
+/* contact form */
+.contact .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+
